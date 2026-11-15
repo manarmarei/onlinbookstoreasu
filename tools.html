@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tools | Kitabi Online Book Store</title>
+</head>
+<body>
+    <h1>Tools</h1>
+    <p>
+        <a href="index.html">Home</a> |
+        <a href="about.html">About Us</a> |
+        <a href="tools.html">Tools</a>
+    </p>
+    <hr>
+
+    <h2>Find a book, then plan the time to read it</h2>
+    <p>Not sure what to read next? Use the tools on this page to find a book that fits you 
+        and to plan how long it will take to finish it. Click on a question to see the answer.</p>
+    <br>
+    <h3>Find my next book</h3>
+    <p>Two questions, one match</p>
+    <form>
+        <div>
+            <fieldset>
+                <legend>1. What do you want from your next book?</legend>
+                <input type="radio" id="r1" name="question1" value="option1">
+                <label for="r1">A story that stays with me</label>
+                <input type="radio" id="r2" name="question1" value="option2">
+                <label for="r2">A skill I can use in my studies or work</label>
+                <input type="radio" id="r3" name="question1" value="option3">
+                <label for="r3">A better routine or mindset</label>
+                <input type="radio" id="r4" name="question1" value="option4">
+                <label for="r4">Something to read with a child</label>
+            </fieldset>
+        </div>
+        <div>
+            <fieldset>
+                <legend>2. How much reading time do you have each day?</legend>
+                <input type="radio" id="rd1" name="question2" value="option1">
+                <label for="rd1">About 15 minutes</label>
+                <input type="radio" id="rd2" name="question2" value="option2">
+                <label for="rd2">30 to 45 minutes</label>
+                <input type="radio" id="rd3" name="question2" value="option3">
+                <label for="rd3">An hour or more</label>
+            </fieldset>
+        </div>
+        <br>
+        <div>
+            <input type="submit" value="Find my book">
+        </div>
+    </form>
+    <br>
+    <h3>Reading-time calculator</h3>
+    <p>Find out when you will finish a book</p>
+    <form>
+        <div>
+            <label for="t1">Number Of pages</label>
+            <input type="text" id="t1" name="numOfPages">
+        </div>
+        <div>
+            <label for="op1">Minutes per day</label>
+            <select id="op1" name="minPerDay">
+                <option value="15">15 minutes</option>
+                <option value="30">30 minutes</option>
+                <option value="45">45 minutes</option>
+                <option value="60">60 minutes</option>
+            </select>
+        </div>
+         <div>
+            <label for="op2">Your reading pace</label>
+            <select id="op2" name="readingPace">
+                <option value="slow">Slow (20 pages/hour)</option>
+                <option value="avg">Average (30 pages/hour)</option>
+                <option value="fast">Fast (45 pages/hour)</option>
+            </select>
+        </div>
+        <br>
+        <div>
+            <input type="submit" value="Calculate">
+        </div>
+
+
+
+
+
+
+    <p>&copy; 2026 Kitabi </p>
+</body>
+
+</html>
